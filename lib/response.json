@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "postTime": "April 12, 1:22",
+    "description": "magni nemo officiis reiciendis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consec",
+    "title": "What is Article",
+    "comments": [
+      {
+        "commentId": 1,
+        "type": "mainComment",
+        "commentTime": "Mon 13:14",
+        "user": {
+          "displayName": "Hadi Hariri",
+          "profileType": "Personal",
+          "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+        },
+        "comment": "nice",
+        "replies": [
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Phi Lung Chin",
+              "profileType": "Personal",
+              "imgUrl": "https://assets1.biggerpockets.com/uploads/social_user/user_avatar/140223/medium_1456335559-avatar-kayos978.jpg"
+            },
+            "comment": "im confused!"
+          },
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Hadi Hariri",
+              "profileType": "Personal",
+              "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+            },
+            "comment": "why so?"
+          },
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Moumita Sandres",
+              "profileType": "Personal",
+              "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+            },
+            "comment": "me too!"
+          }
+        ]
+      },
+      {
+        "commentId": 1,
+        "type": "mainComment",
+        "commentTime": "Mon 13:14",
+        "user": {
+          "displayName": "Anonymous Egg",
+          "profileType": "Personal",
+          "imgUrl": "https://www.redditstatic.com/avatars/avatar_default_15_008985.png"
+        },
+        "comment": "Thank you everyone...",
+        "replies": [
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Hadi Hariri",
+              "profileType": "Personal",
+              "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+            },
+            "comment": "welcome"
+          }
+        ]
+      }
+    ],
+    "user": {
+      "displayName": "Anonymous Egg",
+      "profileType": "Personal",
+      "imgUrl": "https://www.redditstatic.com/avatars/avatar_default_15_008985.png"
+    }
+  },
+  {
+    "id": 1,
+    "postTime": "May 11, 12:01",
+    "post": "magni nemo officiis reiciendis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consec",
+    "title": "What is Article",
+    "comments": [],
+    "user": {
+      "displayName": "Moumita Sandres",
+      "profileType": "Personal",
+      "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+    }
+  },
+  {
+    "id": 1,
+    "postTime": "April 25, 12:01",
+    "post": "magni nemo officiis reiciendis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consec",
+    "title": "What is Article",
+    "comments": [
+      {
+        "commentId": 1,
+        "type": "mainComment",
+        "commentTime": "Mon 13:14",
+        "user": {
+          "displayName": "Hadi Hariri",
+          "profileType": "Personal",
+          "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+        },
+        "comment": "Never thought of that..",
+        "replies": [
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Moumita Sandres",
+              "profileType": "Personal",
+              "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+            },
+            "comment": "it sometimes happens"
+          },
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Moumita Sandres",
+              "profileType": "Personal",
+              "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+            },
+            "comment": "What u think now?"
+          },
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Hadi Hariri",
+              "profileType": "Personal",
+              "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+            },
+            "comment": "just thinking...."
+          }
+        ]
+      },
+      {
+        "commentId": 1,
+        "type": "mainComment",
+        "commentTime": "Mon 13:14",
+        "user": {
+          "displayName": "Phi Lung Chin",
+          "profileType": "Personal",
+          "imgUrl": "https://assets1.biggerpockets.com/uploads/social_user/user_avatar/140223/medium_1456335559-avatar-kayos978.jpg"
+        },
+        "comment": "interesting concept...im into it..",
+        "replies": [
+          {
+            "commentId": 12,
+            "type": "subComment",
+            "commentTime": "Mon 13:14",
+            "user": {
+              "displayName": "Moumita Sandres",
+              "profileType": "Personal",
+              "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+            },
+            "comment": "thank you"
+          }
+        ]
+      }
+    ],
+    "user": {
+      "displayName": "Phi Lung Chin",
+      "profileType": "Personal",
+      "imgUrl": "https://assets1.biggerpockets.com/uploads/social_user/user_avatar/140223/medium_1456335559-avatar-kayos978.jpg"
+    }
+  },
+  {
+    "id": 1,
+    "postTime": "Mon 12:01",
+    "post": "Articles are words that define a noun as specific or unspecific. Consider the following examples:\nAfter the long day, the cup of tea tasted particularly good.\nBy using the article the, we’ve shown that it was one specific day that was long and one specific cup of tea that tasted good. \n After a long day, a cup of tea tastes particularly good.By using the article a, we’ve created a general statement, implying that any cup of tea would taste good after any long day.",
+    "title": "What is Article",
+    "comments": [
+      {
+        "commentId": 1,
+        "type": "mainComment",
+        "commentTime": "Mon 13:14",
+        "user": {
+          "displayName": "Moumita Sandres",
+          "profileType": "Personal",
+          "imgUrl": "https://apprecs.org/ios/images/app-icons/256/17/944327703.jpg"
+        },
+        "comment": "wonderful!!!!",
+        "replies": [
+          {
+            "commentId": 12,
+            "commentTime": "Mon 13:14",
+            "type": "subComment",
+            "user": {
+              "displayName": "Hadi Hariri",
+              "profileType": "Personal",
+              "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+            },
+            "comment": "thanks"
+          }
+        ]
+      }
+    ],
+    "user": {
+      "displayName": "Hadi Hariri",
+      "profileType": "Personal",
+      "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/24/106428_man_512x512.png"
+    }
+  }
+]
