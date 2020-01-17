@@ -28,6 +28,7 @@ class CommentScreenState
   FocusNode _focusNode;
   TextEditingController _commentTextFieldController;
   int _replyIndex;
+  bool _isSendActive = false;
 
   @override
   void initState() {
@@ -125,7 +126,6 @@ class CommentScreenState
                       child: Container(
                         padding: EdgeInsets.only(
                           left: 15,
-                          right: 15,
                         ),
                         height: 40,
                         decoration: new BoxDecoration(
@@ -133,6 +133,7 @@ class CommentScreenState
                             borderRadius: BorderRadius.circular(20)),
                         child: TextFormField(
                           controller: _commentTextFieldController,
+                          onChanged: _onCommentTextChanged,
                           autofocus: false,
                           focusNode: _focusNode,
                           style: TextStyle(color: AppTheme.primaryBlack),
@@ -141,9 +142,9 @@ class CommentScreenState
                               icon: Image.asset(
                                 'assets/icons/send.png',
                                 width: 20,
-                                color: AppTheme.colorPrimary.withOpacity(0.9),
+                                color: _isSendActive?AppTheme.colorPrimary.withOpacity(0.9):Colors.grey,
                               ),
-                              onPressed: _postComment,
+                              onPressed: _isSendActive ? _postComment : null,
                             ),
                             hintText: 'Type Here...',
                             hintStyle: TextStyle(
@@ -275,5 +276,17 @@ class CommentScreenState
         imgUrl:"https://shortcut-test2.s3.amazonaws.com/uploads/role/attachment/104775/default_c6db2094dd726abfa6949e482e2eaa47.png",
         name: "Jonny Devito");
     setState(() {});
+  }
+
+  _onCommentTextChanged(String value) {
+      if(value.isNotEmpty && !_isSendActive)
+        setState(() {
+          _isSendActive = true;
+        });
+
+      if(value.isEmpty && _isSendActive)
+        setState(() {
+          _isSendActive = false;
+        });
   }
 }
